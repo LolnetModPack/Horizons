@@ -24,7 +24,6 @@ recipes.addShaped(<Silicio:materials:1>, [[<minecraft:hopper>, null], [<Silicio:
 recipes.addShaped(<Silicio:circuit_board>, [[<minecraft:obsidian>, <minecraft:obsidian>, <minecraft:obsidian>], [<minecraft:obsidian>, <Silicio:materials:5>, <minecraft:obsidian>], [<minecraft:obsidian>, <minecraft:obsidian>, <minecraft:obsidian>]]);
 recipes.addShaped(<Silicio:controller>, [[<minecraft:obsidian>, <minecraft:obsidian>, <minecraft:obsidian>], [<Silicio:cable>, <Silicio:circuit_board>, <Silicio:cable>], [<minecraft:obsidian>, <minecraft:obsidian>, <minecraft:obsidian>]]);
 furnace.addRecipe(<Silicio:materials:4>, <minecraft:dirt>);
-recipes.addShaped(<GalacticraftCore:item.oilCanisterPartial:1>, [[null, <ore:blockObsidian>, null], [<ore:blockObsidian>, <GalacticraftCore:item.oilCanisterPartial:1001>, <ore:blockObsidian>], [null, <ore:blockObsidian>, null]]);
+recipes.addShaped(<GalacticraftCore:item.oilCanisterPartial:1>, [[null, <ore:blockObsidian>, null], [<ore:blockObsidian>, <GalacticraftCore:item.oilCanisterPartial:1001>.noReturn(), <ore:blockObsidian>], [null, <ore:blockObsidian>, null]]);
 recipes.addShaped(<Redstonic:greatBattery:80>, [[null, <ore:blockRedstone>, null], [<ore:ingotEnderium>, <Redstonic:energizedBattery:80>, <ore:ingotEnderium>], [<ore:blockRedstone>, <Redstonic:capacitor>, <ore:blockRedstone>]]);
 recipes.addShaped(<Redstonic:energizedBattery:80>, [[null, <ore:blockRedstone>, null], [<ore:ingotRefinedObsidian>, <Redstonic:basicBattery:80>, <ore:ingotRefinedObsidian>], [<ore:blockRedstone>, <Redstonic:capacitor>, <ore:blockRedstone>]]);
-recipes.remove(<ExtraUtilities:dark_portal>);
